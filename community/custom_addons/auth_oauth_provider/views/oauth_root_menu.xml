@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+   
+    <menuitem  id = "oauth2_provider_api_root_menu" 
+    web_icon="auth_oauth_provider,static/description/icon.png"
+            name = "OAuth2"
+            sequence = '1'
+    />
+
+
+
+
+</odoo>

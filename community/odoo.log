@@ -1,0 +1,39 @@
+2025-11-25 08:53:13,338 267940 INFO odoo18db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-11-25 08:53:13,390 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: _file_gc could not unlink /home/thinyu/bee/odoo18/data/filestore/odoo18db/50/5082dfaebee7436ceac566ab5ffc5609f1c8d00b 
+Traceback (most recent call last):
+  File "/home/thinyu/bee/odoo18/odoo/addons/base/models/ir_attachment.py", line 214, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thinyu/bee/odoo18/data/filestore/odoo18db/50/5082dfaebee7436ceac566ab5ffc5609f1c8d00b'
+2025-11-25 08:53:13,393 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: _file_gc could not unlink /home/thinyu/bee/odoo18/data/filestore/odoo18db/58/5832a7608b3558a7fb66c5f94d972576c5a06067 
+Traceback (most recent call last):
+  File "/home/thinyu/bee/odoo18/odoo/addons/base/models/ir_attachment.py", line 214, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thinyu/bee/odoo18/data/filestore/odoo18db/58/5832a7608b3558a7fb66c5f94d972576c5a06067'
+2025-11-25 08:53:13,394 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: _file_gc could not unlink /home/thinyu/bee/odoo18/data/filestore/odoo18db/28/28ba407a931115efc06a66fb25091b8a0132d151 
+Traceback (most recent call last):
+  File "/home/thinyu/bee/odoo18/odoo/addons/base/models/ir_attachment.py", line 214, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thinyu/bee/odoo18/data/filestore/odoo18db/28/28ba407a931115efc06a66fb25091b8a0132d151'
+2025-11-25 08:53:13,395 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: _file_gc could not unlink /home/thinyu/bee/odoo18/data/filestore/odoo18db/de/de506515ed0a17267ba43a53717d923462e1853f 
+Traceback (most recent call last):
+  File "/home/thinyu/bee/odoo18/odoo/addons/base/models/ir_attachment.py", line 214, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thinyu/bee/odoo18/data/filestore/odoo18db/de/de506515ed0a17267ba43a53717d923462e1853f'
+2025-11-25 08:53:13,396 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: _file_gc could not unlink /home/thinyu/bee/odoo18/data/filestore/odoo18db/ec/ec781ae9760bfb9124d30d4583d5617cffc9d63c 
+Traceback (most recent call last):
+  File "/home/thinyu/bee/odoo18/odoo/addons/base/models/ir_attachment.py", line 214, in _gc_file_store_unsafe
+    os.unlink(self._full_path(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thinyu/bee/odoo18/data/filestore/odoo18db/ec/ec781ae9760bfb9124d30d4583d5617cffc9d63c'
+2025-11-25 08:53:13,396 267940 INFO odoo18db odoo.addons.base.models.ir_attachment: filestore gc 37 checked, 0 removed 
+2025-11-25 08:53:13,479 267940 INFO odoo18db odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2025-11-25 08:53:13,495 267940 INFO odoo18db odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-11-25 08:53:13,505 267940 INFO odoo18db odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-25 08:53:13,511 267940 INFO odoo18db odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-11-25 08:53:13,541 267940 INFO odoo18db odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-11-25 08:53:13,671 267940 INFO odoo18db odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-11-25 08:53:13,745 267940 INFO odoo18db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.405s 
+2025-11-25 08:53:13,754 267940 INFO odoo18db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-11-25 08:53:13,763 267940 INFO odoo18db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-11-25 08:53:18,162 267940 INFO odoo18db odoo.service.server: Initiating shutdown 
+2025-11-25 08:53:18,162 267940 INFO odoo18db odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-11-25 08:53:18,655 267940 INFO odoo18db odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
