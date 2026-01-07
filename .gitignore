@@ -3,8 +3,10 @@ venv/
 
 # Odoo runtime data
 community/data/
-
 enterprise/odoo/data/
+
+__pycache__/
+venv/
 
 
 odoo18.conf
